@@ -1,0 +1,1 @@
+alert('Accept cookies. <p> Admin wants to get your browser information </p>')

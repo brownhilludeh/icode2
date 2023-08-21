@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>YouTube Navbar</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="menu.png" alt="YouTube Logo">
+                <span>YouTube</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button><img src="search_icon.png" alt="Search"></button>
+            </div>
+            <div class="user-menu">
+                <button><img src="profile-icon.png" alt="User"></button>
+                <div class="dropdown-content">
+                    <a href="#">My Channel</a>
+                    <a href="#">History</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Sign Out</a>
+                </div>
+            </div>
+        </nav>
+
+        <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  .date-created {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 5px;
+  }
+</style>
+        <section class="grid">
+             <div class="grid-container">
+    <div class="card">
+      <img src="image1.jpg" alt="Image 1">
+      <h2 class="title">Card Title 1</h2>
+      <img class="profile-image" src="/profile.jpg" alt="Profile 1">
+      <p class="date-created">August 21, 2023</p>
+    </div>
+    <div class="card">
+      <img src="image1.jpg" alt="Image 1">
+      <h2 class="title">Card Title 1</h2>
+      <img class="profile-image" src="/profile.jpg" alt="Profile 1">
+      <p class="date-created">August 21, 2023</p>
+    </div>
+    <div class="card">
+      <img src="image2.jpg" alt="Image 2">
+      <h2 class="title">Card Title 2</h2>
+      <img class="profile-image" src="/profile-icon.png" alt="Profile 2">
+      <p class="date-created">August 20, 2023</p>
+    </div>
+    <div class="card">
+      <img src="image2.jpg" alt="Image 2">
+      <h2 class="title">Card Title 2</h2>
+      <img class="profile-image" src="/profile-icon.png" alt="Profile 2">
+      <p class="date-created">August 20, 2023</p>
+    </div>
+    <div class="card">
+      <img src="image1.jpg" alt="Image 1">
+      <h2 class="title">Card Title 1</h2>
+      <img class="profile-image" src="/profile.jpg" alt="Profile 1">
+      <p class="date-created">August 21, 2023</p>
+    </div>
+    <div class="card">
+      <img src="image2.jpg" alt="Image 2">
+      <h2 class="title">Card Title 2</h2>
+      <img class="profile-image" src="/profile-icon.png" alt="Profile 2">
+      <p class="date-created">August 20, 2023</p>
+    </div>
+    <!-- Add more card elements here -->
+  </div>
+        </section>
+        <script src="/main.js"></script>
+    </body>
+
+</html>
